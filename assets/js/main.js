@@ -131,7 +131,7 @@ gsap.registerPlugin(ScrollTrigger);
       const totalScroll = wrapper.scrollHeight - scrollArea.clientHeight;
 
       gsap.to(wrapper, {
-        y: -totalScroll,
+        y: -totalScroll-10,
         ease: "none",
         scrollTrigger: {
           trigger: container,
